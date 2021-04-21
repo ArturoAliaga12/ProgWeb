@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>guardar datos en DB</title>
-</head>
-<body>
-    <form method="POST" action="registrar.php">
-
-        <p>RUT: <input type="text" name="nombre" size="20"></p>
-
-        <p>Contraseña: <input type="password" name="contraseña" size="20"></p>
-        <p>Repetir Contraseña: <input type="password" name="contraseña2" size="20"></p>
-
-        <p>E-MAIL: <input type="text" name="correo" size="20"></p>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Proyecto1 Certamen</title>
+        <link rel="stylesheet" href="Proyecto1.css">
+    </head>
+    <body>
+        <div id="Titulo">Bomberos <br> Viña del Mar</div>
+        <div class="Imagen">
+            <img src="Bomberos1.jpeg" alt="Bomberos" width="800px" height="250px">
         
-        <p><input type="submit" value="Guardar Datos" name="B1"></p>
-
-    </form>
-
+            <div id="div1"><a href="#">INICIO</a></div>
+            <div id="div2"><a href="#">LA EMPRESA</a></div>
+            <div id="div3"><a href="#">SERVICIOS</a></div>
+            <div id="div4"><a href="#">GALERIA</a></div>
+            <div id="div5"><a href="#">CONTACTO</a></div>   
+        </div>
+        <div class="container">
+  
+            <ul class="slider">
+              <li id="slide1">
+                <img src="Papa.jpeg" alt="Foto Bomberos">
+              </li>
+              <li id="slide2">
+                <img src="AH.jpeg" alt="foto">
+              </li>
+              <li id="slide3">
+                  <img src="Choro.jpeg" alt="hacha">
+              </li>
+            </ul>
+            
+            <ul class="menu">
+              <li>
+                <a href="#slide1">1</a>
+              </li>
+              <li>
+                <a href="#slide2">2</a>
+              </li>
+               <li>
+                <a href="#slide3">3</a>
+              </li>
+            </ul>
+            
+          </div>
+        
+    </body>
 </html>
